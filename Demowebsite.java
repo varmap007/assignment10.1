@@ -58,6 +58,8 @@ public class Demowebsite {
 				
 				WebElement editprofile = driver.findElement(By.linkText("Edit Profile"));
 				editprofile.click();
+		
+		//updating user details
 				
 				WebElement surname = driver.findElement(By.id("user_surname"));
 				surname.sendKeys("penmethsa");
