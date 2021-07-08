@@ -58,7 +58,9 @@ public class Demowebsite {
 				
 				WebElement editprofile = driver.findElement(By.linkText("Edit Profile"));
 				editprofile.click();
-				
+		
+				// giving user details
+		
 				WebElement surname = driver.findElement(By.id("user_surname"));
 				surname.sendKeys("penmethsa");
 				
@@ -68,10 +70,7 @@ public class Demowebsite {
 				WebElement updateprofile = driver.findElement(By.name("commit"));
 				updateprofile.click();
 				
-				// logging out
 				
-				WebElement logout = driver.findElement(By.xpath("//input[@class='btn btn-danger']"));
-						logout.click();
 				
 						
 	}
