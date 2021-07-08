@@ -67,6 +67,7 @@ public class Demowebsite {
 				
 				WebElement updateprofile = driver.findElement(By.name("commit"));
 				updateprofile.click();
+		
 				
 				// logging out
 				
