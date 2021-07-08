@@ -41,37 +41,7 @@ public class Demowebsite {
 				
 						
 				
-		// trying to login with given details
-				
-				WebElement EMAIL = driver.findElement(By.id("email"));
-				EMAIL.sendKeys("bhaskar123@gmail.com");
-				
-				WebElement PASS = driver.findElement(By.id("password"));
-				PASS.sendKeys("bhaskar1");
-				
-				WebElement login = driver.findElement(By.name("submit"));
-				login.click();
-				
-				
-				
-				// opening the edit profile page and editing details
-				
-				WebElement editprofile = driver.findElement(By.linkText("Edit Profile"));
-				editprofile.click();
-				
-				WebElement surname = driver.findElement(By.id("user_surname"));
-				surname.sendKeys("penmethsa");
-				
-				WebElement firstname = driver.findElement(By.id("user_firstname"));
-				firstname.sendKeys("bhaskar");
-				
-				WebElement updateprofile = driver.findElement(By.name("commit"));
-				updateprofile.click();
-				
-				// logging out
-				
-				WebElement logout = driver.findElement(By.xpath("//input[@class='btn btn-danger']"));
-						logout.click();
+		
 				
 						
 	}
